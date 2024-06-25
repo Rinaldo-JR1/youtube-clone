@@ -24,7 +24,7 @@ const VideoOptions = () => {
           Inscrever-se
         </button>
       </div>
-      <div className="">
+      <div className="font-bold">
         <div className="flex justify-between gap-8">
           <div className="flex justify-center align-middle items-center">
             <AiOutlineLike className="h-12" size={25} />
