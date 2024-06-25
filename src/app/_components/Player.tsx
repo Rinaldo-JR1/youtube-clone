@@ -1,4 +1,6 @@
+import VideoInfo from "./VideoInfo";
 import VideoOptions from "./VideoOptions";
+import VideoTitle from "./VideoTitle";
 
 /* eslint-disable @next/next/no-img-element */
 const Player = () => {
@@ -7,11 +9,9 @@ const Player = () => {
       <div>
         <img src="/assets/thumb.png" alt="video" />
       </div>
-      <div className="text-xl font-bold">
-        Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo
-        Invertido com HTML e CSS
-      </div>
+      <VideoTitle />
       <VideoOptions />
+      <VideoInfo />
     </div>
   );
 };
