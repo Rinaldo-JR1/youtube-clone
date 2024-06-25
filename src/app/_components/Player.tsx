@@ -8,7 +8,7 @@ const Player = () => {
   return (
     <div>
       <div>
-        <img src="/assets/thumb.png" alt="video" />
+        <img src="/assets/video.png" alt="video" className="w-[85%]" />
       </div>
       <VideoTitle />
       <VideoOptions />
