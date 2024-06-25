@@ -1,3 +1,4 @@
+import VideoDescription from "./VideoDescription";
 import VideoInfo from "./VideoInfo";
 import VideoOptions from "./VideoOptions";
 import VideoTitle from "./VideoTitle";
@@ -12,6 +13,7 @@ const Player = () => {
       <VideoTitle />
       <VideoOptions />
       <VideoInfo />
+      <VideoDescription />
     </div>
   );
 };
